@@ -32,3 +32,6 @@ const products: Product[] = [
 window.onload = function() {
     displayProducts(products);
 };
+
+
+// comando no funciona, revisar.!!!!!!!
