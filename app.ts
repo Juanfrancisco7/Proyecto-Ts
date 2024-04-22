@@ -5,6 +5,13 @@ interface Product {
     price: number;
 }
 
+const products: Product[] = [
+    { id: 1, name: 'Producto 1', price: 10 },
+    { id: 2, name: 'Producto 2', price: 20 },
+    { id: 3, name: 'Producto 3', price: 30 },
+    { id: 4, name: 'Nuevo Producto', price: 25 } // Nuevo producto añadido
+];
+
 // Definimos una función para mostrar los productos en la página
 function displayProducts(products: Product[]): void {
     const productsSection = document.getElementById('products');
