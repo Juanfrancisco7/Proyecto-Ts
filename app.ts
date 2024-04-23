@@ -35,10 +35,3 @@ window.onload = function() {
     displayProducts(products);
 };
 
-
-// comando no funciona, revisar error en consola:
-        
-        
-      // Failed to load resource: the server responded with a status of 404 (Not Found)
-      // 127.0.0.1/:1 Refused to execute script from 'http://127.0.0.1:5500/app.js' because 
-      //its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.
