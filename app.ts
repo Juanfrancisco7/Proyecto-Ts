@@ -8,7 +8,7 @@ interface Product {
 
 
 // Definimos una función para mostrar los productos en la página
-function displayProducts(products: Product[]): void {
+function displayProduct(products: Product[]): void {
     const productsSection = document.getElementById('products');
     if (!productsSection) return;
 
@@ -24,7 +24,7 @@ function displayProducts(products: Product[]): void {
 }
 
 //lista de productos
-const products: Product[] = [
+const product: Product[] = [
     { id: 1, name: 'Producto 1', price: 100 },
     { id: 2, name: 'Producto 2', price: 200 },
     { id: 3, name: 'Producto 3', price: 300 }
